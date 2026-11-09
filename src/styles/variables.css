@@ -1,0 +1,10 @@
+:root {
+  --navy: #071625;
+  --navy-light: #0d2740;
+  --orange: #ff7900;
+  --ice: #f5f7fa;
+  --steel: #8b9baa;
+  --white: #fff;
+  --border: rgba(139, 155, 170, 0.2);
+  --max-width: 1240px;
+}
