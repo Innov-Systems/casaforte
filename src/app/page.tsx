@@ -1,7 +1,6 @@
 import { links } from "@/data/navigation";
 import Image from "next/image";
 import {
-  ArrowRight,
   ArrowUpRight,
   ArrowDown,
   MapPin,
@@ -440,10 +439,7 @@ export default function Home() {
           <div>
             <Logo />
             <p>
-              Força, precisão e qualidade.
-              <br />
-              Soluções em serralheria para dar
-              <br />
+              Força, precisão e qualidade. Soluções em serralheria para dar
               forma ao seu próximo projeto.
             </p>
           </div>
@@ -487,14 +483,20 @@ export default function Home() {
           </div>
         </div>
         <div className={`${s.container} ${s.footerBottom}`}>
+          <span className={s.footerCredit}>
+            Site desenvolvido pela{" "}
+            <a
+              href="https://primesolves.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PrimeSolves
+            </a>
+          </span>
           <span>
             © {new Date().getFullYear()} Serralheria Casa Forte. Todos os
             direitos reservados.
           </span>
-          <a href="#inicio">
-            FEITO COM FORÇA. PENSADO PARA VOCÊ.
-            <ArrowRight size={14} />
-          </a>
         </div>
       </footer>
       <a
